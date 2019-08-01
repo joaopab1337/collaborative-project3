@@ -1,0 +1,26 @@
+#main-doc {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+#navbar header {
+    margin: 16px 0;
+    font-size: 32px;
+}
+
+.nav-link {
+    padding: 8px;
+    display: block;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    color: black;
+}
+
+.nav-link:first-child {
+    border-top: none;
+}
+
+.container {
+    padding: 8px;
+    border: 1px solid;
+}
